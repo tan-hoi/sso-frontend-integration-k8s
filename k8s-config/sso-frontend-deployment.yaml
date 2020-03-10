@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: static
-          image: ensaas/sso-frontend:v0.9.8
+          image: ensaas/sso-frontend:v0.9.9
           ports:
             - containerPort: 3000
           resources:
