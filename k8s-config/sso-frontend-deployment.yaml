@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sso-frontend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: web
+  template:
+    metadata:
+      labels:
+        component: web
+    spec:
+      containers:
+        - name: static
+          image: ensaas/sso-frontend:v0.9.8
+          ports:
+            - containerPort: 3000
+          resources:
+            limits:
+              cpu: 10m
+              memory: 32Mi
+              ephemeral-storage: 32Mi
+            requests:
+              cpu: 10m
+              memory: 32Mi
