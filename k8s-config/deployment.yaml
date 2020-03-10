@@ -1,16 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sso-frontend-deployment
+  name: sso-frontend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      component: web
+      component: sso
+      dave: lee
   template:
     metadata:
       labels:
-        component: web
+        component: sso
+        dave: lee
     spec:
       containers:
         - name: static

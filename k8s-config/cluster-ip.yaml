@@ -1,11 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: sso-frontend-cluster-ip
+  name: sso-frontend
 spec:
   type: ClusterIP
   selector:
-    component: web
+    component: sso
+    dave: lee
   ports:
     - port: 3000
       targetPort: 3000
