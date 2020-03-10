@@ -12,5 +12,5 @@ spec:
         paths:
           - path: /?(.*)
             backend:
-              serviceName: sso-frontend-cluster-ip
+              serviceName: sso-frontend
               servicePort: 3000
