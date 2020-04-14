@@ -4,6 +4,7 @@ metadata:
   name: sso-frontend
 spec:
   replicas: 1
+  revisionHistoryLimit: 0
   selector:
     matchLabels:
       component: sso
