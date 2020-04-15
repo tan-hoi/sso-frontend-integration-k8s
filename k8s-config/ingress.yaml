@@ -4,13 +4,13 @@ metadata:
   name: sso-frontend
   annotations:
     kubernetes.io/ingress.class: nginx
-    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    # nginx.ingress.kubernetes.io/rewrite-target: /$1
 spec:
   rules:
     - host: sso-frontend.level2.eks004.en.internal
       http:
         paths:
-          - path: /?(.*)
+          - path: /
             backend:
               serviceName: sso-frontend
               servicePort: 3000

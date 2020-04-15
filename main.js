@@ -1,6 +1,6 @@
 const ssoUri = 'https://portal-sso-ensaas.sa.wise-paas.com';
 const apiBase = 'https://api-sso-ensaas.sa.wise-paas.com'
-const redirectUri = 'https://ssofrontend-devspace-eks004.sa.wise-paas.com/index.html';
+const redirectUri = 'https://sso-frontend-level2-eks004.sa.wise-paas.com/index.html';
 
 $('#signInBtn').click(function () {
   window.location.href = ssoUri + '/home/sign-in?redirectUri=' + redirectUri;

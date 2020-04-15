@@ -4,15 +4,16 @@ metadata:
   name: sso-frontend
 spec:
   replicas: 1
+  revisionHistoryLimit: 0
   selector:
     matchLabels:
       component: sso
-      dave: lee
+      student: dave-lee
   template:
     metadata:
       labels:
         component: sso
-        dave: lee
+        student: dave-lee
     spec:
       containers:
         - name: static
