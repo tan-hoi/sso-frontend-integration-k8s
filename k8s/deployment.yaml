@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sso-frontend
+  name: sso-frontend-dave-lee
 spec:
   replicas: 1
   revisionHistoryLimit: 0
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: static
-          image: ensaas/sso-frontend:v0.9.9
+          image: ensaas/sso-frontend:v1.0.0
           ports:
             - containerPort: 3000
           resources:
