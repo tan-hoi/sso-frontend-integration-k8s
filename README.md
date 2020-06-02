@@ -1,7 +1,6 @@
 # SSO Front-end Integration
 
-This example shows how to implement SSO front-end integration for EnSaaS 4.0. We are not deploying this app using Kubernetes.
-
+This example shows how to implement SSO front-end integration for the EnSaaS 4.0, which utilizes the default log-in page provided by WISE-PaaS. This default log-in page can be integrated with all applications deployed onto the platform.
 
 
 # Result
