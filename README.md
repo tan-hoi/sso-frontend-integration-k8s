@@ -2,10 +2,21 @@
 
 This example shows how to implement SSO front-end integration for the EnSaaS 4.0, which utilizes the default log-in page provided by WISE-PaaS. This default log-in page can be integrated with all applications deployed onto the platform.
 
-
 # Result
 
 ![demo](./img/demo.png)
+
+
+
+# Default Log-in Page
+
+When clicking the **Sign in** button, the user will be redirected to the default WISE-PaaS log-in page. This allows the browser to retrieve the **access token** as a cookie once the user enters all required credentials, which can be included in the consequent HTTP requests. This way, the developers who are creating the applications for our platform do not have to implement the log-in page by themselves.
+
+
+
+![login](.\img\login.png)
+
+
 
 # Components
 
