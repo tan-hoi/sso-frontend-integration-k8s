@@ -14,7 +14,7 @@ When clicking the **Sign in** button, the user will be redirected to the default
 
 
 
-![login](.\img\login.png)
+![login](./img/login.png)
 
 
 
