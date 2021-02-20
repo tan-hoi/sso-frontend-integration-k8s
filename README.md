@@ -113,10 +113,10 @@ $('#signOutBtn').click(function () {
 - cluster-ip.yaml
 ![cluster-ip](./img/cluster-ip.png)
 
-- ingress.yaml
+- ingress.yaml<br/> 
 Set the Host Name → sso-frontend-{Name}.{namespace name}.{cluster name}.en.internal
 ![ingress](./img/ingress.png)
 
-- main.js
+- main.js<br/> 
 Confirm which DataCenter you belong to and replace your name
 ![main.js](./img/main.png)
