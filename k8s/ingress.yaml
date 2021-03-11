@@ -10,7 +10,7 @@ spec:
     # SA center
     - host: sso-frontend-dave-lee.assignment.eks004.en.internal
     # HZ center
-    # - host: sso-frontend-sk-chen.assignment.eks006.en.internal
+    # - host: sso-frontend-dave-lee.assignment.eks006.en.internal
       http:
         paths:
           - path: /
