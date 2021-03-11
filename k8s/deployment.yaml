@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sso-frontend-dave-lee
+  name: sso-frontend-sk-chen
 spec:
   replicas: 1
   revisionHistoryLimit: 0
   selector:
     matchLabels:
       component: sso
-      student: dave-lee
+      student: sk-chen
   template:
     metadata:
       labels:
         component: sso
-        student: dave-lee
+        student: sk-chen
     spec:
       containers:
         - name: static
