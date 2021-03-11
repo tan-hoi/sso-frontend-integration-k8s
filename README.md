@@ -114,6 +114,7 @@ $('#signOutBtn').click(function () {
 ![cluster-ip](./img/cluster-ip.png)
 
 - ingress.yaml<br/> 
+make sure which namespace and cluster you want to deploy the app, can confirm by management-portal
 Set the Host Name → sso-frontend-{Name}.{namespace name}.{cluster name}.en.internal
 ![ingress](./img/ingress.png)
 
