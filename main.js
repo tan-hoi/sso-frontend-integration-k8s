@@ -4,7 +4,7 @@
 const ssoUri = 'https://portal-sso-ensaas.sa.wise-paas.com';
 const apiBase = 'https://api-sso-ensaas.sa.wise-paas.com';
 const redirectUri =
-  'https://sso-frontend-dave-lee-assignment-eks004.sa.wise-paas.com/index.html';
+  'https://sso-frontend-tan-hoi-assignment-eks004.sa.wise-paas.com/index.html';
 
 // hz center
 /* const ssoUri =
